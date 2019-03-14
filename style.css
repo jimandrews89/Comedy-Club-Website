@@ -1,0 +1,104 @@
+
+* { margin: 0, padding: 0 }
+
+#headerlogo {
+  height: 200px;
+}
+
+
+header {
+  background-color: yellow;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+  margin: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+body {
+  background-color: orange;
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav li {
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 5px;
+  border-: 2px;
+  margin: 10px auto 0;
+  background-color: yellow;
+  width: 200px;
+  height: 25px;
+}
+
+.main-container {
+  margin: 5px;
+  margin-bottom: 0;
+  border: 0;
+  width: auto;
+  background-color: rgba(0, 0, 0, .7);
+}
+
+.content {
+  color: yellow;
+}
+
+
+.calender {
+  display: block;
+  list-style: none;
+  border-style: solid;
+  border: 2px;
+  border-radius: 5px;
+  margin: 140px auto 1px;
+  width: 80%;
+  text-align: left;
+
+}
+
+.calender li {
+  margin-top: 10px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.about-us {
+  display: block;
+  list-style: none;
+  border-style: solid;
+  border: 2px;
+  padding-bottom: 20px;
+  margin: 20px auto 0px;
+  width: 80%;
+  text-align: left;
+}
+
+footer {
+  height: 100px;
+  background-color: yellow;
+  margin-top: 0;
+  text-align: center;
+}
+
+.icon {
+  height: 75px;
+  margin: 2px;
+}
+
+a {
+	text-decoration:none;
+}
